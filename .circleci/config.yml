@@ -26,6 +26,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install pytest
+            pip install requests
       # run tests!
       # this example uses Django's built-in test-runner
       # other common Python testing frameworks include pytest and nose
