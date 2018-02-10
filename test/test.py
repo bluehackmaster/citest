@@ -8,4 +8,4 @@ def test():
     # payload = {'category': "Blouse", 'offset': 0, 'limit': 10}
     resp = requests.get(url, params=payload)
     # j = resp.json()
-      assert resp.status_code == 200
+    assert resp.status_code == 200
