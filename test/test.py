@@ -5,6 +5,8 @@ def test():
     url = 'http://api-prod.stylelens.io/playgrounds/images/datasets/deepfashion/categories'
     payload = {'category': "Blouse", 'offset': 0, 'limit': 10}
     resp = requests.get(url, params=payload)
+
+
     assert resp.status_code == 200
 
     j = resp.json()
